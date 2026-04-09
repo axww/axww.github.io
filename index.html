@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>肥宅C</title>
     <style>
+        html,
         body {
-            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            margin: 0;
-            padding: 20px 0 30px 0;
-            text-align: center;
+            overflow: hidden;
         }
 
         h1 {
@@ -40,69 +40,78 @@
             border-radius: 5px;
             margin-top: 20px;
         }
+
+        .content {
+            overflow: auto;
+            max-height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="section">
-        <h1>肥宅C</h1>
-        <p>大型网络废物</p>
-        <div class="links">
-            <a href="https://eu.zonerama.com/ccccc/" target="_blank">Zonerama 生活记录</a><br>
-            <a href="https://jpjp.nett.to/" target="_blank">JPhonetic 日文注音</a><br>
-            <a href="https://setu.nett.to/" target="_blank">XGallery 神秘图库</a><br>
+    <div class="content">
+        <div class="section">
+            <h1>肥宅C</h1>
+            <p>大型网络废物</p>
+            <div class="links">
+                <a href="https://eu.zonerama.com/ccccc/" target="_blank">Zonerama 生活记录</a><br>
+                <a href="https://jpjp.nett.to/" target="_blank">JPhonetic 日文注音</a><br>
+                <a href="https://setu.nett.to/" target="_blank">XGallery 神秘图库</a><br>
+            </div>
         </div>
-    </div>
 
-    <div class="section links">
-        社团组织:<br>
-        <a href="https://mylt.net/" target="_blank">摸鱼论坛</a>
-        <a href="https://www.dalao.net/" target="_blank">大佬论坛</a>
-        <a href="http://shee.cc/" target="_blank">秘言</a>
-        <a href="https://cloudatabases.com/" target="_blank">云库</a>
-        <a href="https://www.jizhiku.net/" target="_blank">机智库</a>
-        <a href="https://xdrk.net/" target="_blank">依萌萌</a>
-        <a href="https://yoooo.co/" target="_blank">Yoooo</a>
-        <br>
-        学生时期:<br>
-        <a href="https://mrz.name/" target="_blank">Mr.Z</a>
-        <a href="https://gerley.net/" target="_blank">Gerley</a>
-        <a href="https://huanblog.com/" target="_blank">幻焕</a>
-        <a href="https://kutinana.com/" target="_blank">星川栀子</a>
-        <a href="https://www.vpstry.com/" target="_blank">VPStry</a>
-        <br>
-        博客时期:<br>
-        <a href="https://youthlin.com/" target="_blank">霖博客</a>
-        <a href="https://biji.io/" target="_blank">设计笔记</a>
-        <a href="https://bestcherish.com/" target="_blank">灰常记忆</a>
-        <a href="http://www.dijianwu.com/" target="_blank">半曲离歌</a>
-        <a href="http://www.yptk.cn/" target="_blank">云破天开</a>
-        <a href="https://www.nbmao.com/" target="_blank">笨猫</a>
-        <br>
-        <a href="https://cloud.yt.net/server" target="_blank">云途</a>
-        <a href="https://www.dogyun.com/product/vps" target="_blank">狗云</a>
-        <a href="https://t.me/s/vpscang" target="_blank">古博</a>
-        <a href="https://kevinzonda.com/" target="_blank">Kevin</a>
-        <a href="https://www.mx.sb/" target="_blank">365cent</a>
-        <br>论坛时期:<br>
-        <a href="https://share1223.com/" target="_blank">share1223</a>
-        <a href="https://blog.barku.re/" target="_blank">Barkure</a>
-        <a href="https://ygz.ink/" target="_blank">宗宗酱</a>
-        <a href="https://www.tempest.zone/" target="_blank">Tempest</a>
-        <a href="https://els.cc/" target="_blank">城南旧事</a>
-        <br>
-        <a href="https://www.lpv4.cn/" target="_blank">IP查询</a>
-        <a href="https://www.allhas.com/" target="_blank">全有导航</a>
-        <a href="https://aawsl.com/" target="_blank">saber</a>
-        <a href="https://github.com/AsisYu" target="_blank">AsisYu</a>
-        <a href="https://errorcode.team/" target="_blank">ECT</a>
-    </div>
+        <div class="section links">
+            社团组织:<br>
+            <a href="https://mylt.net/" target="_blank">摸鱼论坛</a>
+            <a href="https://www.dalao.net/" target="_blank">大佬论坛</a>
+            <a href="http://shee.cc/" target="_blank">秘言</a>
+            <a href="https://cloudatabases.com/" target="_blank">云库</a>
+            <a href="https://www.jizhiku.net/" target="_blank">机智库</a>
+            <a href="https://xdrk.net/" target="_blank">依萌萌</a>
+            <a href="https://yoooo.co/" target="_blank">Yoooo</a>
+            <br>
+            学生时期:<br>
+            <a href="https://mrz.name/" target="_blank">Mr.Z</a>
+            <a href="https://gerley.net/" target="_blank">Gerley</a>
+            <a href="https://huanblog.com/" target="_blank">幻焕</a>
+            <a href="https://kutinana.com/" target="_blank">星川栀子</a>
+            <a href="https://www.vpstry.com/" target="_blank">VPStry</a>
+            <br>
+            博客时期:<br>
+            <a href="https://youthlin.com/" target="_blank">霖博客</a>
+            <a href="https://biji.io/" target="_blank">设计笔记</a>
+            <a href="https://bestcherish.com/" target="_blank">灰常记忆</a>
+            <a href="http://www.dijianwu.com/" target="_blank">半曲离歌</a>
+            <a href="http://www.yptk.cn/" target="_blank">云破天开</a>
+            <a href="https://www.nbmao.com/" target="_blank">笨猫</a>
+            <br>
+            <a href="https://cloud.yt.net/server" target="_blank">云途</a>
+            <a href="https://www.dogyun.com/product/vps" target="_blank">狗云</a>
+            <a href="https://t.me/s/vpscang" target="_blank">古博</a>
+            <a href="https://kevinzonda.com/" target="_blank">Kevin</a>
+            <a href="https://www.mx.sb/" target="_blank">365cent</a>
+            <br>论坛时期:<br>
+            <a href="https://share1223.com/" target="_blank">share1223</a>
+            <a href="https://blog.barku.re/" target="_blank">Barkure</a>
+            <a href="https://ygz.ink/" target="_blank">宗宗酱</a>
+            <a href="https://www.tempest.zone/" target="_blank">Tempest</a>
+            <a href="https://els.cc/" target="_blank">城南旧事</a>
+            <br>
+            <a href="https://www.lpv4.cn/" target="_blank">IP查询</a>
+            <a href="https://www.allhas.com/" target="_blank">全有导航</a>
+            <a href="https://aawsl.com/" target="_blank">saber</a>
+            <a href="https://github.com/AsisYu" target="_blank">AsisYu</a>
+            <a href="https://errorcode.team/" target="_blank">ECT</a>
+        </div>
 
-    <div class="section">
-        请删除友链，我方单向保留，以便今后回访。<br>
-        近年域名大幅涨价，过期后不会续费。<br>
-        感谢各位一直以来的支持！<br>
+        <div class="section">
+            请删除友链，我方单向保留，以便今后回访。<br>
+            近年域名大幅涨价，过期后不会续费。<br>
+            感谢各位一直以来的支持！<br>
+        </div>
     </div>
 
 </body>
